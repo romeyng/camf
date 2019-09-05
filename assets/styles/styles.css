@@ -1,0 +1,37 @@
+.login-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url('/assets/images/login-wallpaper.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+    filter: blur(4px);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    width: 20%;
+    margin: -10% 0 0 -10%;
+}
+
+i.fa {
+    width: 15px;
+}
+
+.form-control {
+    border: 0;
+    height: 36px;
+    margin: 17px 0px 0px;
+    padding: 7px 0px 10px;
+    background: no-repeat bottom, 50% calc(100% - 1px);
+    background-size: 0 100%, 100% 100%;
+}
+
+.input-group .input-group-text {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 15px 15px 0px;
+}

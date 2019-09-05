@@ -1,3 +1,8 @@
+* {
+    font-size: 100%;
+    font-family: Verdana, Roboto, Helvetica;
+}
+
 .login-background {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url('/assets/images/login-wallpaper.jpg');
     background-size: cover;
@@ -10,11 +15,17 @@
 
 .container {
     position: absolute;
+    padding: 0;
     top: 50%;
     left: 50%;
     height: 50%;
     width: 20%;
     margin: -10% 0 0 -10%;
+}
+
+.login-card {
+    height: 100%;
+    background-color: snow;
 }
 
 i.fa {
@@ -28,6 +39,7 @@ i.fa {
     padding: 7px 0px 10px;
     background: no-repeat bottom, 50% calc(100% - 1px);
     background-size: 0 100%, 100% 100%;
+    color: #720303;
 }
 
 .input-group .input-group-text {

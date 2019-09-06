@@ -3,8 +3,6 @@
     font-family: Verdana, Roboto, Helvetica;
 }
 
-
-
 .login-background {
     background-image: url('/assets/images/login-wallpaper-blur.jpg');
     display: flex;
@@ -14,29 +12,21 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     height: 100vh;
-    
 }
+
 .login-form {
     width: 400px;
     justify-content: center;
-    
-    
     padding: 0;
-    
 }
+
 .login-form form {
     margin-bottom: 15px;
-    background: #f7f7f7;
+    background-color: #f7f7f7;
     box-shadow: 1px 8px 5px 1px rgba(0, 0, 0, 0.3);
     padding: 30px;
-    border-radius: 15px;
-    background-image: linear-gradient(to top left, rgb(16, 187, 0), rgb(48, 48, 179) );
+    border-radius: 8px;
 }
-
-
-
-
-
 
 .form-control {
     border: 0;

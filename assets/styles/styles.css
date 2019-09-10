@@ -13,7 +13,6 @@
     -webkit-font-smoothing: antialiased;
 }
 
-
 .login-background {
     background-image: url('/assets/images/login-wallpaper-alt.jpg');
     display: flex;
